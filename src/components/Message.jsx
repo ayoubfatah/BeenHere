@@ -1,5 +1,5 @@
 import styles from "./Message.module.css";
-
+import PropTypes from "prop-types";
 function Message({ message }) {
   return (
     <p className={styles.message}>
@@ -9,3 +9,7 @@ function Message({ message }) {
 }
 
 export default Message;
+
+Message.propTypes = {
+  message: PropTypes.string.isRequired,
+};

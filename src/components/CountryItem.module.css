@@ -4,9 +4,9 @@
   align-items: center;
   gap: 0.2rem;
 
-  font-size: 1.7rem;
+  font-size: 1rem;
   font-weight: 600;
-
+  margin: 20px 0px;
   background-color: var(--color-dark--2);
   border-radius: 7px;
   padding: 1rem 2rem;
