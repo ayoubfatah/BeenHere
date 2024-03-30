@@ -40,7 +40,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="app" element={<AppLayout />}>
-          {/* default */}
+          {/* default */}w
           <Route index element={<Navigate replace to="cities" />} />
           <Route
             path="cities"
