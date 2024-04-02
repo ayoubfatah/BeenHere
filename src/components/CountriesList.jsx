@@ -3,8 +3,9 @@ import styles from "./CountryList.module.css";
 import Spinner from "./Spinner";
 import PropTypes from "prop-types";
 import Message from "./Message";
-//
-const CountriesList = ({ isLoading, cities }) => {
+import { useCities } from "../contexts/CitiesContext";
+const CountriesList = () => {
+  const { cities, isLoading } = useCities();
   if (isLoading) return <Spinner />;
   if (!cities.length)
     return (
@@ -14,6 +15,7 @@ const CountriesList = ({ isLoading, cities }) => {
   console.log(countriesSet);
   const countries = [];
 
+  //countries
   cities.forEach((city) => {
     if (countriesSet.has(city.country)) {
       countriesSet.delete(city.country);
