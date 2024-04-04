@@ -4,9 +4,8 @@ import { useState } from "react";
 
 import styles from "./Form.module.css";
 import Button from "./Button";
-import { useNavigate } from "react-router-dom";
 import BackButton from "./BackButton";
-
+import { useUrlPosition } from "../hooks/useUrlPostion";
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
     .toUpperCase()
@@ -21,6 +20,7 @@ function Form() {
   const [date, setDate] = useState(new Date());
   const [notes, setNotes] = useState("");
 
+  const [lat, lng] = useUrlPosition();
   return (
     <form className={styles.form}>
       <div className={styles.row}>
