@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import styles from "./Logo.module.css";
-
 function Logo() {
   return (
     <Link to="/">
-      <h1 className={styles.logo}>BeenHere</h1>
+      <img src="/logo.png" alt="beenhere logo" className={styles.logo} />
     </Link>
   );
 }
