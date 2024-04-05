@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function Message({ message }) {
   return (
     <p className={styles.message}>
-      <span role="img">👋</span> {message}
+      <span role="img">{message}</span> {message}
     </p>
   );
 }
