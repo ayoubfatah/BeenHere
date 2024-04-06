@@ -1,25 +1,32 @@
 // Uses the same styles as Product
-import styles from "./Product.module.css";
+import styles from "./Pricing.module.css";
 import PageNav from "../components/PageNav";
 export default function Product() {
   return (
-    <main className={styles.product}>
+    <main className={styles.pricing}>
       <PageNav />
-      <section>
+      <div className={styles.cardContainer}>
         <div>
-          <h2>
-            Simple pricing.
-            <br />
-            Just $9/month.
-          </h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
-            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
-            voluptatem iste.
-          </p>
+          <div className={styles.cards}>
+            <h1 className={styles.heading}>Basic</h1>
+            <div>
+              <h1 className={styles.heading}>$199.00</h1>
+              <p className={styles.marginBot}>Monthly</p>
+            </div>
+            <div></div>
+            <div className={styles.marginBot}>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+            </div>
+            <button className={styles.btnBuy}>Buy Now</button>
+          </div>
         </div>
-        <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />
-      </section>
+      </div>
     </main>
   );
 }
+
+// PricePlans.js

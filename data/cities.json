@@ -47,6 +47,54 @@
         "lat": "29.53522956294847",
         "lng": "-8.876953125000002"
       }
+    },
+    {
+      "id": "2d2c",
+      "cityName": "Bejaad",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2024-04-06T20:33:34.298Z",
+      "notes": "",
+      "position": {
+        "lat": "32.80574473290688",
+        "lng": "-6.108398437500001"
+      }
+    },
+    {
+      "id": "44a2",
+      "cityName": "Ange",
+      "country": "Sweden",
+      "emoji": "🇸🇪",
+      "date": "2024-04-06T20:37:55.473Z",
+      "notes": "",
+      "position": {
+        "lat": "62.55285695857292",
+        "lng": "15.556640625000002"
+      }
+    },
+    {
+      "id": "a522",
+      "cityName": "Tura",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2024-04-06T20:38:12.484Z",
+      "notes": "",
+      "position": {
+        "lat": "60.23981116999893",
+        "lng": "97.3828125"
+      }
+    },
+    {
+      "id": "bff7",
+      "cityName": "Castronuno",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-04-06T22:10:56.736Z",
+      "notes": "\n",
+      "position": {
+        "lat": "41.393294288784894",
+        "lng": "-5.207519531250001"
+      }
     }
   ]
 }
