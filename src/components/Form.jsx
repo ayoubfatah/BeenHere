@@ -12,7 +12,7 @@ import Spinner from "../components/Spinner";
 import "react-datepicker/dist/react-datepicker.css";
 import { useCities } from "../contexts/CitiesContext";
 import { useNavigate } from "react-router-dom";
-import StarRating from "./StarRating";
+
 
 //
 export function convertToEmoji(countryCode) {

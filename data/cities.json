@@ -1,99 +1,27 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "id": "d555",
-      "cityName": "Calamocha",
+      "id": "9007",
+      "cityName": "Belalcazar",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2024-04-05T14:53:01.386Z",
-      "notes": "dqsdqs",
+      "date": "2024-04-11T22:37:35.473Z",
+      "notes": "",
       "position": {
-        "lat": "40.896905775860006",
-        "lng": "-1.3183593750000002"
+        "lat": "38.634036452919226",
+        "lng": "-5.141601562500001"
       }
     },
     {
-      "id": "755d",
-      "cityName": "La Estrella",
+      "id": "4abe",
+      "cityName": "Izagaondoa",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2024-04-05T15:09:25.663Z",
-      "notes": "ssss",
+      "date": "2024-04-11T23:18:52.552Z",
+      "notes": "kjknk",
       "position": {
-        "lat": "39.690280594818034",
-        "lng": "-5.097656250000001"
-      }
-    },
-    {
-      "id": "3807",
-      "cityName": "Tafraout",
-      "country": "Morocco",
-      "emoji": "🇲🇦",
-      "date": "2024-04-05T21:50:07.141Z",
-      "notes": "",
-      "position": {
-        "lat": "29.53522956294847",
-        "lng": "-8.876953125000002"
-      }
-    },
-    {
-      "id": "2d2c",
-      "cityName": "Bejaad",
-      "country": "Morocco",
-      "emoji": "🇲🇦",
-      "date": "2024-04-06T20:33:34.298Z",
-      "notes": "",
-      "position": {
-        "lat": "32.80574473290688",
-        "lng": "-6.108398437500001"
-      }
-    },
-    {
-      "id": "44a2",
-      "cityName": "Ange",
-      "country": "Sweden",
-      "emoji": "🇸🇪",
-      "date": "2024-04-06T20:37:55.473Z",
-      "notes": "",
-      "position": {
-        "lat": "62.55285695857292",
-        "lng": "15.556640625000002"
-      }
-    },
-    {
-      "id": "a522",
-      "cityName": "Tura",
-      "country": "Russian Federation (the)",
-      "emoji": "🇷🇺",
-      "date": "2024-04-06T20:38:12.484Z",
-      "notes": "",
-      "position": {
-        "lat": "60.23981116999893",
-        "lng": "97.3828125"
-      }
-    },
-    {
-      "id": "bff7",
-      "cityName": "Castronuno",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-04-06T22:10:56.736Z",
-      "notes": "\n",
-      "position": {
-        "lat": "41.393294288784894",
-        "lng": "-5.207519531250001"
+        "lat": "42.76314586689494",
+        "lng": "-1.4941406250000002"
       }
     }
   ]

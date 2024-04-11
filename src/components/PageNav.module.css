@@ -25,7 +25,7 @@
   color: var(--color-brand--2);
 }
 
-a.ctaLink:link,
+a.ctaLink:link,     
 a.ctaLink:visited {
   background-color: var(--color-brand--2);
   color: var(--color-dark--0);
